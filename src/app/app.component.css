@@ -1,7 +1,7 @@
-.bg-color {
-    background-color:lavender !important;
+.nav-bg-color {
+    background-color:rgb(83, 83, 173) !important;
 }
 
-pre {
-    margin-top: 200px;
+li .nav-link {
+    color:white;
 }
