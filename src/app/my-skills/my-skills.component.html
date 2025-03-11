@@ -1,1 +1,6 @@
-<h2 class="text-center"> Skills </h2>
+<h2 class="text-center mt-5 mb-5"> Skills </h2>
+<div class="container-fluid d-flex flex-wrap">
+    <div class="box-style" *ngFor="let skill of skills">
+        <span class="item p-2">{{skill}}</span>
+    </div>
+</div>
