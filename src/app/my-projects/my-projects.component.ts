@@ -17,35 +17,23 @@ export class MyProjectsComponent {
   projects: Project[];
   constructor() {
     this.projects = [{
-      name: 'Project 1',
+      name: 'Chat Bot',
+      description: 'Developed a RESTful chatbot API using FastAPI and integrated Google Gemini via LangChain for dynamic query\
+handling',
+      technologies: ['React', 'Node']
+    }, 
+    {
+      name: 'Book Social Network',
       description: "Allows users to manage their book collections and interact with a community of book\
                 lovers, featuring secure user registration with JWT validation, email validation, and comprehensive book\
-                management including borrowing and return approval.",
+                management including borrow,ing and return approval.",
       technologies: ['Angular', 'Firebase']
-    }, {
-      name: 'Project 2',
-      description: 'This is project 2',
-      technologies: ['React', 'Node']
-    }, {
-      name: 'Project 3',
-      description: 'This is project 3',
-      technologies: ['Vue', 'MongoDB']
-    }, {
-      name: 'Project 2',
-      description: 'This is project 2',
-      technologies: ['React', 'Node']
-    }, {
-      name: 'Project 3',
-      description: 'This is project 3',
-      technologies: ['Vue', 'MongoDB']
-    }
-    , {
-      name: 'Project 2',
-      description: 'This is project 2',
-      technologies: ['React', 'Node']
-    }, {
-      name: 'Project 3',
-      description: 'This is project 3',
+    },
+    {
+      name: 'DiscussIt',
+      description: 'Crafted user authentication features covering registration, verification, and session management with JWT validation.\
+Implemented REST APIs for efficient management of posts, comments, votes, alongside intuitive frontend components,\
+for great user experience',
       technologies: ['Vue', 'MongoDB']
     }
   ]
