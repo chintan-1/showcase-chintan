@@ -1,1 +1,10 @@
 <h2 class="text-center mt-5 mb-5"> Projects </h2>
+<div class="container-fluid d-flex flex-wrap">
+    <div class = "card-full-box" *ngFor="let project of projects">
+        <h2 class="text-center"> {{project.name}} </h2>
+        <div class="custom-body">
+            <div class="bg-container"></div>
+            <p class="text-center p-2"> {{project.description}} </p>
+        </div>
+    </div>
+</div>
