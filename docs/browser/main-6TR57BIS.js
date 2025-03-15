@@ -14,4 +14,56 @@ ${n.map((r,o)=>`${o+1}) ${r.toString()}`).join(`
   \u{1F680} Process Optimization: Redesigned an automated customer port cancellation process, achieving zero production failures and saving 14 hours monthly.
   \u{1F4CA} Data Efficiency: Created a Pandas-based tool that cut compliance assessment time from 2 weeks to 10 minutes.
   \u{1F4A1} Let\u2019s connect! If you\u2019re into cloud innovation, automation, or building smarter systemsI\u2019d love to chat.
-      `),J()()())},styles:["p[_ngcontent-%COMP%]{margin-bottom:0%;font-family:Roboto,sans-serif;color:#999;text-transform:uppercase;font-size:36px;font-weight:700}.pre-word-break-save-foramt[_ngcontent-%COMP%]{text-wrap:pretty}"]})};function Yb(e,t){if(e&1&&(Y(0,"div",3)(1,"span",4),ae(2),J()()),e&2){let n=t.$implicit;Tt(2),ec(n)}}var Pi=class e{skills;constructor(){this.skills=["Django","Angular","Typescript","HTML","CSS","Javascript","Python","SOLID Priciples","Design Pattern","Google Cloud Platform (GCP)","Terraform","kafka","Docker(Beginner)","Kubernetes (Beginner)","CI/CD Pipeline","Data Structure and algorithms","Object-Oriented Programming","Communication","Analytical Thinking","Detail Oriented"]}static \u0275fac=function(n){return new(n||e)};static \u0275cmp=Ve({type:e,selectors:[["app-my-skills"]],decls:4,vars:1,consts:[[1,"text-center","mt-5","mb-5"],[1,"container-fluid","d-flex","flex-wrap"],["class","box-style",4,"ngFor","ngForOf"],[1,"box-style"],[1,"item","p-2"]],template:function(n,r){n&1&&(Y(0,"h2",0),ae(1," Skills "),J(),Y(2,"div",1),er(3,Yb,3,1,"div",2),J()),n&2&&(Tt(3),nr("ngForOf",r.skills))},dependencies:[di],styles:[".box-style[_ngcontent-%COMP%]{border:1px solid #ccc;padding:10px;margin:10px;border-radius:5px;background-color:#f9f9f9;width:250px;display:flex;justify-content:center;align-items:center}"]})};function Qb(e,t){if(e&1&&(Y(0,"div",3)(1,"h2",4),ae(2),J(),Y(3,"div",5),Nt(4,"div",6),Y(5,"p",7),ae(6),J()()()),e&2){let n=t.$implicit;Tt(2),rr(" ",n.name," "),Tt(4),rr(" ",n.description," ")}}var Fi=class e{projects;constructor(){this.projects=[{name:"Chat Bot",description:"Developed a RESTful chatbot API using FastAPI and integrated Google Gemini via LangChain for dynamic queryhandling",technologies:["React","Node"]},{name:"Book Social Network",description:"Allows users to manage their book collections and interact with a community of book                lovers, featuring secure user registration with JWT validation, email validation, and comprehensive book                management including borrow,ing and return approval.",technologies:["Angular","Firebase"]},{name:"DiscussIt",description:"Crafted user authentication features covering registration, verification, and session management with JWT validation.Implemented REST APIs for efficient management of posts, comments, votes, alongside intuitive frontend components,for great user experience",technologies:["Vue","MongoDB"]}]}static \u0275fac=function(n){return new(n||e)};static \u0275cmp=Ve({type:e,selectors:[["app-my-projects"]],decls:4,vars:1,consts:[[1,"text-center","mt-5","mb-5"],[1,"container-fluid","d-flex","flex-wrap"],["class","card-full-box",4,"ngFor","ngForOf"],[1,"card-full-box"],[1,"text-center"],[1,"custom-body"],[1,"bg-container"],[1,"text-center","p-2"]],template:function(n,r){n&1&&(Y(0,"h2",0),ae(1," Projects "),J(),Y(2,"div",1),er(3,Qb,7,2,"div",2),J()),n&2&&(Tt(3),nr("ngForOf",r.projects))},dependencies:[di],styles:['.card-full-box[_ngcontent-%COMP%]{width:350px;height:auto}.custom-body[_ngcontent-%COMP%]{margin:10px;width:300px;height:auto;border-radius:10px;box-shadow:0 4px 8px #0003;transition:.3s;background-color:#f8f9fa}.bg-container[_ngcontent-%COMP%]{width:300px;height:150px;border-radius:10px 10px 0 0;background-image:url("./media/image-XQNCPRAO.jpeg");background-position:center}']})};var Li=class e{static \u0275fac=function(n){return new(n||e)};static \u0275cmp=Ve({type:e,selectors:[["app-root"]],decls:15,vars:0,consts:[[1,"navbar","navbar-expand","bg-body-tertiary","nav-bg-color","border-bottom","border-black","border-3"],["id","navbarText",1,"collapse","navbar-collapse","justify-content-center"],[1,"navbar-nav","mb-2","mb-lg-0"],[1,"nav-item"],["aria-current","page","href","#",1,"nav-link","active"],["href","#",1,"nav-link"]],template:function(n,r){n&1&&(Y(0,"nav",0)(1,"div",1)(2,"ul",2)(3,"li",3)(4,"a",4),ae(5,"About"),J()(),Y(6,"li",3)(7,"a",5),ae(8,"Project"),J()(),Y(9,"li",3)(10,"a",5),ae(11,"Contact"),J()()()()(),Nt(12,"app-about-me")(13,"app-my-skills")(14,"app-my-projects"))},dependencies:[ki,Pi,Fi],styles:[".nav-bg-color[_ngcontent-%COMP%]{background-color:#5353ad!important}li[_ngcontent-%COMP%]   .nav-link[_ngcontent-%COMP%]{color:#fff}"]})};Ep(Li,cg).catch(e=>console.error(e));
+      `),J()()())},styles:[`
+
+p[_ngcontent-%COMP%] {
+  margin-bottom: 0%;
+  font-family: "Roboto", sans-serif;
+  color: #999;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: bold;
+}
+.pre-word-break-save-foramt[_ngcontent-%COMP%] {
+  text-wrap: pretty;
+}`]})};function Yb(e,t){if(e&1&&(Y(0,"div",3)(1,"span",4),ae(2),J()()),e&2){let n=t.$implicit;Tt(2),ec(n)}}var Pi=class e{skills;constructor(){this.skills=["Django","Angular","Typescript","HTML","CSS","Javascript","Python","SOLID Priciples","Design Pattern","Google Cloud Platform (GCP)","Terraform","kafka","Docker(Beginner)","Kubernetes (Beginner)","CI/CD Pipeline","Data Structure and algorithms","Object-Oriented Programming","Communication","Analytical Thinking","Detail Oriented"]}static \u0275fac=function(n){return new(n||e)};static \u0275cmp=Ve({type:e,selectors:[["app-my-skills"]],decls:4,vars:1,consts:[[1,"text-center","mt-5","mb-5"],[1,"container-fluid","d-flex","flex-wrap"],["class","box-style",4,"ngFor","ngForOf"],[1,"box-style"],[1,"item","p-2"]],template:function(n,r){n&1&&(Y(0,"h2",0),ae(1," Skills "),J(),Y(2,"div",1),er(3,Yb,3,1,"div",2),J()),n&2&&(Tt(3),nr("ngForOf",r.skills))},dependencies:[di],styles:[`
+
+.box-style[_ngcontent-%COMP%] {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}`]})};function Qb(e,t){if(e&1&&(Y(0,"div",3)(1,"h2",4),ae(2),J(),Y(3,"div",5),Nt(4,"div",6),Y(5,"p",7),ae(6),J()()()),e&2){let n=t.$implicit;Tt(2),rr(" ",n.name," "),Tt(4),rr(" ",n.description," ")}}var Fi=class e{projects;constructor(){this.projects=[{name:"Chat Bot",description:"Developed a RESTful chatbot API using FastAPI and integrated Google Gemini via LangChain for dynamic queryhandling",technologies:["React","Node"]},{name:"Book Social Network",description:"Allows users to manage their book collections and interact with a community of book                lovers, featuring secure user registration with JWT validation, email validation, and comprehensive book                management including borrow,ing and return approval.",technologies:["Angular","Firebase"]},{name:"DiscussIt",description:"Crafted user authentication features covering registration, verification, and session management with JWT validation.Implemented REST APIs for efficient management of posts, comments, votes, alongside intuitive frontend components,for great user experience",technologies:["Vue","MongoDB"]}]}static \u0275fac=function(n){return new(n||e)};static \u0275cmp=Ve({type:e,selectors:[["app-my-projects"]],decls:4,vars:1,consts:[[1,"text-center","mt-5","mb-5"],[1,"container-fluid","d-flex","flex-wrap"],["class","card-full-box",4,"ngFor","ngForOf"],[1,"card-full-box"],[1,"text-center"],[1,"custom-body"],[1,"bg-container"],[1,"text-center","p-2"]],template:function(n,r){n&1&&(Y(0,"h2",0),ae(1," Projects "),J(),Y(2,"div",1),er(3,Qb,7,2,"div",2),J()),n&2&&(Tt(3),nr("ngForOf",r.projects))},dependencies:[di],styles:[`
+
+.card-full-box[_ngcontent-%COMP%] {
+  width: 350px;
+  height: auto;
+}
+.custom-body[_ngcontent-%COMP%] {
+  margin: 10px;
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background-color: #f8f9fa;
+}
+.bg-container[_ngcontent-%COMP%] {
+  width: 300px;
+  height: 150px;
+  border-radius: 10px 10px 0 0;
+  background-image: url("./media/image-XQNCPRAO.jpeg");
+  background-position: center;
+}`]})};var Li=class e{static \u0275fac=function(n){return new(n||e)};static \u0275cmp=Ve({type:e,selectors:[["app-root"]],decls:15,vars:0,consts:[[1,"navbar","navbar-expand","bg-body-tertiary","nav-bg-color","border-bottom","border-black","border-3"],["id","navbarText",1,"collapse","navbar-collapse","justify-content-center"],[1,"navbar-nav","mb-2","mb-lg-0"],[1,"nav-item"],["aria-current","page","href","#",1,"nav-link","active"],["href","#",1,"nav-link"]],template:function(n,r){n&1&&(Y(0,"nav",0)(1,"div",1)(2,"ul",2)(3,"li",3)(4,"a",4),ae(5,"About"),J()(),Y(6,"li",3)(7,"a",5),ae(8,"Project"),J()(),Y(9,"li",3)(10,"a",5),ae(11,"Contact"),J()()()()(),Nt(12,"app-about-me")(13,"app-my-skills")(14,"app-my-projects"))},dependencies:[ki,Pi,Fi],styles:[`
+
+.nav-bg-color[_ngcontent-%COMP%] {
+  background-color: rgb(83, 83, 173) !important;
+}
+li[_ngcontent-%COMP%]   .nav-link[_ngcontent-%COMP%] {
+  color: white;
+}`]})};Ep(Li,cg).catch(e=>console.error(e));
