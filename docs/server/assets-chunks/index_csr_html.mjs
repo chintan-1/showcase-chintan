@@ -9,6 +9,6 @@ export default `<!doctype html>
 <link rel="stylesheet" href="styles-VBKA4FYO.css"></head>
 <body ngcm="">
   <app-root></app-root>
-<script src="polyfills-FFHMD2TL.js" type="module"></script><script src="scripts-LGHYJXS5.js" defer=""></script><script src="main-6TR57BIS.js" type="module"></script></body>
+<script src="polyfills-FFHMD2TL.js" type="module"></script><script src="scripts-LGHYJXS5.js" defer=""></script><script src="main-LQH2UQQV.js" type="module"></script></body>
 </html>
 `;
